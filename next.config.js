@@ -7,7 +7,6 @@ const nextConfig = {
       test: /\.[cm]*js$/u,
       include: [/node_modules\/next\/dist/u, /node_modules\/color/u],
       exclude: [
-        /app-router/,
         /node_modules\/next\/dist\/compiled\/react/u,
         /node_modules\/next\/dist\/client\/components\/(?<ignore>app-router\.|error-|lay|ren)/u,
       ],
